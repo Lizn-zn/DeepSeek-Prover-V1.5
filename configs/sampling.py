@@ -26,6 +26,6 @@ model_args = AttrDict(
 n_search_procs = 64
 sampler = dict(
     algorithm=Sampling,
-    sample_num=128,
+    sample_num=16,
     log_interval=32,
 )
